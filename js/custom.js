@@ -59,7 +59,7 @@ $('#login').on('click', function(){
       if((emailValue.length > 0) ||(passwordValue.length > 0)){
         if((emailValue === emails[0]) && (passwordValue === passwords[0])){
           alert('Login Successfully.');
-          window.location = "wireframe/wireframe.html"
+          window.location = "wireframe.html"
       }else {
         alert("Check Email or Password");
       }
