@@ -1,6 +1,6 @@
 .heading{
     text-align: center;
-    margin: 15px;
+    margin: 30px;
 }
 .form-control{
   margin: 15px;
@@ -8,19 +8,18 @@
 .form-control::-webkit-input-placeholder{
   color: #000;
 }
-
-
-
-.center-it{
+/* .center-it{
   position: relative;
-}
+} */
 button{
 position: absolute;
 left: 50%;
+border-radius: 10%;
+box-shadow: none;
 }
 
-@media only screen and (max-width:540px){
+@media screen and (max-width:540px){
   #shiftDown{
-    padding-top: 20%;
+    padding-top: 50px;
   }
 }
