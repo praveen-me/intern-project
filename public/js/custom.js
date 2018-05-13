@@ -37,11 +37,10 @@ $('#signUp').on('click', function(){
   if((emailValue.length > 0) && (passwordValue.length > 0)){
     emails.push(emailValue);
     passwords.push(passwordValue);
-    alert("Sign Up Successfully.");
   }else{
     alert('Insert SignUp Details');
   }
-
+  alert("Sign Up Successfully.");
   console.log(emails);
   console.log(passwords);
 });
